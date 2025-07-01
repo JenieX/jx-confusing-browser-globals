@@ -1,0 +1,19 @@
+{
+  "compilerOptions": {
+    "target": "ESNext",
+    "module": "ESNext",
+    "strict": true,
+    "esModuleInterop": true,
+    "noImplicitAny": true,
+    "removeComments": false,
+    "moduleResolution": "Node",
+    "noUncheckedIndexedAccess": true,
+    "checkJs": true,
+    "outDir": "./dist"
+  },
+  "include": [
+    //
+    "index.ts",
+    "rollup.config.js"
+  ]
+}

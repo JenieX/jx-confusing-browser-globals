@@ -1,0 +1,13 @@
+{
+  "files.exclude": {
+    "node_modules": true
+  },
+
+  "[typescript]": { "editor.defaultFormatter": "dbaeumer.vscode-eslint" },
+
+  "explorer.fileNesting.enabled": true,
+  "explorer.fileNesting.expand": false,
+  "explorer.fileNesting.patterns": {
+    "package.json": "LICENSE.txt, .prettierignore, .prettierrc.json, .gitignore, tsconfig.json, package-lock.json, rollup.config.js, .eslintrc.json"
+  }
+}
